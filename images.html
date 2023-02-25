@@ -8,16 +8,20 @@
 
 <body>
 	<div class="flex-container" id="hdr">
-		<a class="link" href="images.html">Images</a>
+		<a class="link" href="../index.html">Google Search</a>
 		<a class="link" href="advanced.html">Advanced</a>
 	</div>
-	<div class="flex-container center" id="gimg">
-		<img src="glogo.png" alt="">
+	<div class="gimg1">
+		<div class="flex-container center gimg2">
+			<img id="why2" src="glogo.png" alt="">
+			<span class="why">Images</span>
+		</div>
 	</div>
 	<div class="flex-container center" id="form">
 		<form action="https://www.google.com/search">
 			<input class="srchbar" type="text" name="q">
-			<input class="srchbutton" type="submit" value="Google Search">
+			<input class="srchbutton" type="submit" value="Image Search">
+			<input type="hidden" name="tbm" value="isch">
 		</form>
 	</div>
 </body>
