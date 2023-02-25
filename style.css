@@ -61,6 +61,7 @@ body {
 	flex-shrink: 0;
 	box-sizing: border-box;
 	margin-bottom: 22px;
+	min-width: 480px;
 }
 
 .gimg2 {
@@ -74,7 +75,7 @@ body {
 #gimg {
 	flex-direction: column;
 	min-height: 92px;
-	min-width: 272px;
+	min-width: 480px;
 	margin-bottom: 22px;
 	max-height: 92px;
 	height: 100%;
@@ -98,6 +99,10 @@ body {
 #form {
 	min-height: 160px;
 	padding: 20px;
+	align-items: center;
+	margin: auto;
+	text-align: center;
+	min-width: 380px;
 }
 
 .why {
@@ -113,10 +118,8 @@ body {
 	font-family: arial, sans-serif;
 	font-size: 14px;
 	background-color: #f8f9fa;
-	/* justify-content: center; */
 	align-self: center;
 	border: none;
-	display: block;
 	margin: 22px auto;
 	color: #3c4043;
 	padding: 0px 16px;
@@ -132,6 +135,25 @@ body {
 	cursor: pointer;
 }
 
+.srchbutton1 {
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	background-color: #f8f9fa;
+	align-self: center;
+	border: none;
+	margin: 22px auto;
+	color: #3c4043;
+	padding: 0px 16px;
+	line-height: 27px;
+	height: 36px;
+	border-radius: 4px;
+}
+.srchbutton1:hover {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+	border: 1px solid #dadce0;
+	color: #202124;
+	cursor: pointer;
+}
 #form {
 	display: block;
 	padding-top: 6px;
