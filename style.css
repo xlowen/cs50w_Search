@@ -135,7 +135,7 @@ body {
 	cursor: pointer;
 }
 
-.srchbutton1 {
+#srchbutton1 {
 	font-family: arial, sans-serif;
 	font-size: 14px;
 	background-color: #f8f9fa;
@@ -148,7 +148,7 @@ body {
 	height: 36px;
 	border-radius: 4px;
 }
-.srchbutton1:hover {
+#srchbutton1:hover {
 	box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
 	border: 1px solid #dadce0;
 	color: #202124;
@@ -182,7 +182,7 @@ body {
 
 .w2 {
 	float: left;
-	display: inline-block;
+	/* display: inline-block; */
 	min-width: 167px;
 	width: 16%;
 	height: 42px;
@@ -200,7 +200,7 @@ body {
 
 .w1a {
 	float: left;
-	display: inline-block;
+	/* display: inline-block; */
 	min-width: 167px;
 	min-height: 41px;
 	vertical-align: middle;
@@ -252,7 +252,7 @@ body {
 
 .w4 {
 	float: left;
-	display: inline-block;
+	/* display: inline-block; */
 	min-width: 167px;
 	width: 16%;
 	font-size: 16px;
